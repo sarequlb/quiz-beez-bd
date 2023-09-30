@@ -46,8 +46,8 @@ const Topic = ({ quest }) => {
                     </div>
                     {
                         options.map((option) =>
-                            <form className=' m-10 border-2 flex justify-center align-middle h-20 p-5 hover:bg-green-600'>
-                                <input onClick={handleChange} className='mx-4 h-5 w-20 input-field' type="checkbox" name='option' value={option} id="input-field" />
+                            <form className=' m-10 border-2 flex justify-center align-middle h-30 p-5 hover:bg-green-600'>
+                                <input onClick={handleChange} className='mx-4 h-6 w-20 input-field' type="checkbox" name='option' value={option} id="input-field" />
                                 <label className='' for='option'> {option}</label>
                             </form>
 
