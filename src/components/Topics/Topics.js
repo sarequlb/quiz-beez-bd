@@ -5,15 +5,14 @@ import Topic from '../Topic/Topic';
 const Topics = () => {
     const quizDatas = useLoaderData()
     const quizData = quizDatas.data;
-    const {name,total,logo,questions} = quizData;
-    console.log(questions.options)
-    console.log(quizData)
+    const {id,name,total,logo,questions} = quizData;
+    
     return (
-        <div>
-            <h1>topic of quioze</h1>
+        <div className='mb-20'>
+            <h1 className='m-10 text-3xl font-bold underline underline-offset-4'>Quizes Of <span className='text-red-700'>{name}</span> </h1>
             <div>
                 {
-                    questions.map(quest => <Topic quest = {quest}></Topic>)
+                    questions.map(quest => <Topic quest = {quest} key={quest.id}></Topic>)
                 }
             </div>
         </div>

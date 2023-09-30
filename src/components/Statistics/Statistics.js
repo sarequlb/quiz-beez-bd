@@ -24,25 +24,6 @@ const Statistics = () => {
                     </AreaChart>
                 </ResponsiveContainer>
             </div>
-            {/* <BarChart
-                width={990}
-                height={450}
-                data={quizData}
-                margin={{ top: 15, right: 30, left: 20, bottom: 5 }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name">
-                    <Label value="Quizes of my website" offset={-3} position="insideBottom" />
-                </XAxis>
-                <Tooltip></Tooltip>
-                <YAxis label={{ value: 'Total Quizes', angle: -90, position: 'insideLeft', textAnchor: 'middle' }} />
-                <Bar dataKey="total" fill="#8884d8">
-                    <LabelList dataKey="name" position="insideTop" color='r' angle="-40" />
-                </Bar>
-                <Bar dataKey="name" fill="#82ca9d">
-                    <LabelList dataKey="total" position="top" />
-                </Bar>
-            </BarChart> */}
         </div >
     );
 };

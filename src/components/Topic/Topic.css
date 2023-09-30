@@ -1,0 +1,19 @@
+.input-option{
+    border:1px solid red;
+}
+
+@media (min-width: 768px){
+    .quiz-sec{
+        width: 80%;
+    }
+}
+@media (min-width: 1024px){
+    .quiz-sec{
+        width: 40%;
+    }
+}
+@media (min-width: 1280px){
+    .quiz-sec{
+        width: 40%;
+    }
+}
